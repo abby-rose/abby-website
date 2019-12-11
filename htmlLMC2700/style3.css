@@ -1,0 +1,109 @@
+body{
+	background-color: #FEEAEA;
+}
+.btn-overlay{
+    
+    background-color: rgb(212, 142, 237, .5);
+    border: 0;
+    color: #fff;
+    opacity: 0.6;
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    z-index: 999;
+    width: 100px
+}
+
+.btn-overlay:hover{
+    opacity: 1;
+}
+
+#restart{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#invert{
+    position: fixed;
+    right: 10px;
+    top: 55px;
+}
+h1 {
+	display: inline;
+	position: center;
+	font: 70px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	padding-left: 320px;
+	color: rgb(212, 142, 237, .5);
+} 
+h1:after {
+	content: "FASET: Summer 2019";
+	padding-left: 320px;
+	position: absolute; left: 12px; top: 12px;
+	color: rgb(176, 228, 254, .5);
+
+}
+p{ 
+	background-color: rgb(254, 254, 254, .85);
+	width: 650px;
+	position: absolute;
+	left: 300px;
+	right: 40px;
+	font-size: 20px;
+	top: 20%;
+}
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto; 
+  padding-top: 275px;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+ .boxInner img { width: 100% }
+
+
+@media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+        padding-bottom: 25%;
+

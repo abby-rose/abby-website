@@ -1,0 +1,65 @@
+
+body{
+	font-family: Palatino, "Palatino Linotype", 
+	"Palatino LT STD", "Book Antiqua", Georgia, serif;
+	background-color: #FEEAEA;
+}
+h1 {
+	display: inline;
+	position: center;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	padding-left: 80px;
+	padding-right: 20px;
+	color: rgb(212, 142, 237, .5);
+}
+
+h1:after {
+	content: "Abby Thien";
+	padding-left: 80px;
+	padding-right: 20px;
+	position: absolute; left: 15px; top: 17px;
+	color: rgb(176, 228, 254, .5);
+
+}
+h2{	
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	line-height: 50px;
+	color: white;
+	background-color: rgb(252, 254, 173);
+	padding-left: 20px;
+	width: 220px;
+	border-radius: 25px;
+}
+img {
+	padding-right: 100px;
+}
+p {
+	background-color: rgb(254, 254, 254, .85);
+	width: 650px;
+	font-size: 20px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+h3{
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	background-color: rgb(252, 254, 173);
+	padding-left: 20px;
+	width: 270px;
+	border-radius: 25px;
+	
+}
+
+
+ul{
+	background-color: white;
+	width: 450px;
+	
+
+}
+a{
+	color: pink;
+}

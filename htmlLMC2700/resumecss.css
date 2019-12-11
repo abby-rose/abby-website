@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu";
+}
+
+main {
+    background-color: #D5DED9;
+}
+
+.main-heading {
+    background-color: #404145;
+    color: whitesmoke;
+    height: 20vh;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #404145;
+
+}
+
+.title {
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.name,
+.professional-title {
+    display: block;
+    top: 50%;
+    left: 65%;
+    position: absolute;
+    transform: translate(-50%, -65%)
+}
+.name {
+    
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-family: "Comfortaa";
+}
+
+.professional-title {
+    
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding-top: 80px;
+}
+
+aside {
+    float:left;
+    max-width: 25%;
+    height: 900px;
+    margin-left: 30px;
+    z-index: 2;
+    position: absolute;
+}
+
+.toc{
+    background-color: #f2dddc;
+    position: relative;
+    top: 3em;
+    left: 1em;
+    padding: 2em;
+    
+}
+
+.section-heading,
+.section-heading-2 {
+    font-family: "Comfortaa";
+    font-size: 15px;
+    color: #404145;
+    text-align: center;
+    text-transform: uppercase;
+    
+} 
+.section-heading {margin-top: 60px;}
+
+.section-heading p {
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: lowercase;
+}
+
+h2 { margin-bottom: 20px; }
+
+
+.social-media li{
+    display: inline-block;
+    font-size: 28px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    letter-spacing: 8px;
+    
+}
+
+.social-media a:visited {color: #800080;}
+
+.fab, .fas {color: #404145;}
+
+
+hr {
+    width: 180px;
+    margin: 0 auto;
+    color: #404145;
+}
+
+.section-heading-2 {
+    margin-top: 40px;
+}
+
+.languages li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 8px 35px 0;
+   
+   
+}
+
+.degree-title { font-size: 14px; }
+
+.institution,
+.date, .GPA {
+    font-size: 12px;
+}
+.date {padding-bottom: 40px;}
+
+h2,
+.position-title {
+    font-family: "Comfortaa";
+    text-transform: uppercase;
+}
+
+h2 { 
+    letter-spacing: 3px; 
+    margin-top: 12px;   
+    font-size: 26px;
+    padding-bottom: 15px;
+
+}
+
+.work {
+    background-color:white;
+    width: 70%;
+    float: right;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.position-title { 
+    font-size: 20px; 
+    margin-top: 40px;
+}
+
+.company-name {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.dates {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.job-items {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+
+.job-description {
+    list-style-type: square;
+    line-height: 25px;
+    text-align: center;
+}

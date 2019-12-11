@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang=en>
+<meta charset="UTF-8"/>
+	<title> Abby Thien </title>	
+	<link rel="stylesheet" href="style.css">
+<body>
+	<h1>	Abby Thien		</h1>
+		<img src= "faset.png" alt = "faset"
+	width="450" height= "450" align= "right">
+	<p> Hi! Welcome to my webpage!! My name is Abby Thien and I’m a second-year Computer Science major at Georgia Tech. While I love CS sharing memes and talking about the CS Helpdesk, I actually didn’t come to Tech as a CS major. I was initially an International Affairs major, hoping to take on the world as a lawyer. I quickly realized that wasn’t the path for me and switched to Computational Media after taking an intro to computer science course. After delving deeper into the CS classes offered at Tech, I switched fully to Computer Science. I’m beyond excited to see where this new major takes me and explore the opportunities to come. Click on the tabs below to learn more about me, my passion for Georgia Tech and my interests.  </p>
+	<!-- The tab bar was inspired by a work found on codeopen.io -->
+ <nav>
+  <a href="abbythien_secondpage.html">LIFE</a>
+  <a href="abbythien_thirdpage.html">FASET</a>
+  <a href="abbythien_fourthpage.html">CONTACT</a>
+  <style> 
+nav
+{
+    position: relative;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 250px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+nav a {
+    position: relative;
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: #949494;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after
+{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before
+{
+    background-color: rgb(176, 228, 254);
+}
+
+nav a:nth-child(1):after
+{
+    background-color: rgb(212, 142, 237, .5);
+}
+
+nav a:nth-child(2):before
+{
+    background-color: rgb(212, 142, 237);
+}
+
+nav a:nth-child(2):after
+{
+    background-color: rgb(176, 228, 254);
+}
+
+nav a:nth-child(3):before
+{
+    background-color: rgb(176, 228, 254);
+}
+
+nav a:nth-child(3):after
+{
+    background-color: rgb(212, 142, 237, .5);
+}
+
+#indicator
+{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+nav a:hover
+{
+    color: #fff;
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator
+{
+    background: linear-gradient(130deg,rgb(212, 142, 237, .5), rgb(176, 228, 254) );
+}
+
+nav a:nth-child(2):hover ~ #indicator
+{
+    left: 34%;
+    background: linear-gradient(130deg, rgb(176, 228, 254),rgb(212, 142, 237) ) ;
+}
+
+nav a:nth-child(3):hover ~ #indicator
+{
+    left: 70%;
+    background: linear-gradient(130deg, rgb(212, 142, 237, .5), rgb(176, 228, 254) );
+}
+
+#ytd_link
+{
+    position: absolute;
+    right: 590px;
+    left: 40px;
+    bottom: -200px;
+    display: block;
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgb(176, 228, 254);
+    border-radius: 2px;
+    animation: showYTDlink 1.5s ease 3s forwards;
+}
+
+@keyframes showYTDlink
+{
+    0%{ bottom: -200px; }
+    100%{ bottom: 20px; }
+} 
+
+</style>
+  
+  <div id="indicator"> </div>
+
+</nav>
+<!-- Links my favorite Cody Ko youtube video! -->
+<a id="ytd_link" target="_blank" href="https://www.youtube.com/watch?v=rd2hoAXQNK8">Watch on YouTube</a>
+</body>
+</html>
